@@ -1,0 +1,94 @@
+/* General Page Styling */
+body {
+  background-color: #1e1e1e; /* Dark background for a modern look */
+  color: #ffffff; /* White text color */
+  font-family: 'Arial', sans-serif; /* Clean font */
+  text-align: center; /* Center-align all content */
+  margin: 0;
+  padding: 0;
+}
+
+/* Particles Background */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Keep it behind all other content */
+}
+
+/* Profile Image Styling */
+.profile {
+  display: flex; /* Center the profile image horizontally */
+  justify-content: center;
+  margin-top: 50px; /* Space above the profile image */
+  margin-bottom: 20px; /* Space below the profile image */
+}
+
+.profile-image {
+  width: 120px; /* Profile image size */
+  height: 120px;
+  border-radius: 50%; /* Make it circular */
+  border: 4px solid #ffffff; /* White border */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* About Section */
+.about h1 {
+  font-size: 32px; /* Main title font size */
+  margin: 10px 0;
+}
+
+.about p {
+  font-size: 16px; /* Description text size */
+  color: #cccccc; /* Light gray text */
+}
+
+/* General Button Styling */
+.button {
+  display: flex; /* Align icon and text horizontally */
+  align-items: center; /* Center content vertically */
+  justify-content: center;
+  text-decoration: none; /* Remove underline */
+  padding: 10px 20px; /* Add space inside buttons */
+  border-radius: 30px; /* Round button corners */
+  font-size: 20px; /* Button text size */
+  font-weight: bold; /* Bold text */
+  color: #ffffff; /* White text */
+  margin: 10px auto; /* Space between buttons */
+  gap: 10px; /* Space between icon and text */
+  width: 300px; /* Fixed button width */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effects */
+}
+
+/* Individual Button Colors */
+.roblox {
+  background-color: #000000; /* Roblox: Black */
+}
+
+.discord {
+  background-color: #5865F2; /* Discord: Blue */
+}
+
+.instagram {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af); /* Instagram gradient */
+}
+
+.tiktok {
+  background: linear-gradient(45deg, #69C9D0, #EE1D52); /* TikTok gradient */
+}
+
+/* Hover Effects */
+.button:hover {
+  transform: translateY(-3px); /* Slight lift effect */
+  box-shadow: 0 8px 15px rgba(1, 1, 1, 1); /* Add a shadow on hover */
+}
+
+/* Icon Styling */
+.button img {
+  width: 50px; /* Icon size */
+  height: 50px;
+  border-radius: 50%; /* Optional: circular icons */
+}
+

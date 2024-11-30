@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Particles Background -->
+  <div id="particles-js"></div>
+
+  <!-- Profile Section -->
+  <div class="profile">
+    <img src="https://media.discordapp.net/attachments/1301651881810067488/1312184143232237568/e229070581e0363cd7a323903c9fafab.png?ex=674b9236&is=674a40b6&hm=3b2c6f4332d679b2ee0685e95c56e27fd428a0b70ecbbe825e4d8ab19aa1ffaa&=&format=webp&quality=lossless" alt="Profile Picture" class="profile-image">
+  </div>
+
+  <!-- About Section -->
+  <div class="about">
+    <p>Chill Guy</p>
+    <h1>Real Screw</h1>
+    <p>I'm a normal person but chill, from Egypt. Designer, Modeler, Programmer. I can be hired for money.</p>
+  </div>
+
+  <!-- Social Links Section -->
+  <div class="social-links">
+    <a href="https://www.roblox.com/users/7634876359/profile" class="button roblox">
+      <img src="https://media.discordapp.net/attachments/1301651881810067488/1312182712768925706/icons8-roblox-500.png?ex=674b90e1&is=674a3f61&hm=a5d5c928b17ab15943a5ffc50f771f23f4eaf7ab1136a14998f06bb8b0eb1d7b&=&format=webp&quality=lossless" alt="Roblox Logo"> Roblox
+    </a>
+    <a href="https://discordapp.com/users/1175887976413274282" class="button discord">
+      <img src="https://media.discordapp.net/attachments/1301651881810067488/1312182712509009960/icons8-discord-500.png?ex=674b90e1&is=674a3f61&hm=f9d921c51653302b900b51281667647555fc1d051c4b10898d6f88b6c49537da&=&format=webp&quality=lossless" alt="Discord Logo"> Discord
+    </a>
+    <a href="https://www.instagram.com/bja7a/" class="button instagram">
+      <img src="https://media.discordapp.net/attachments/1301651881810067488/1312182712274255952/icons8-instagram-500.png?ex=674b90e1&is=674a3f61&hm=c69197304005bb2b1d42114172a9bb9b0b7225047643de02436163fa91d926e2&=&format=webp&quality=lossless" alt="Instagram Logo"> Instagram
+    </a>
+    <a href="https://www.tiktok.com/@mj0._p" class="button tiktok">
+      <img src="https://media.discordapp.net/attachments/1301651881810067488/1312182712995549247/icons8-tiktok-500.png?ex=674b90e1&is=674a3f61&hm=958bc42046e1e70821b53f297dfffdb977245ee0c42fe367d8a0b89216d7e972&=&format=webp&quality=lossless" alt="TikTok Logo"> TikTok
+    </a>
+  </div>
+
+  <!-- Particles.js Script -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS('particles-js', {
+      "particles": {
+        "number": { "value": 80, "density": { "enable": true, "value_area": 1000 } },
+        "color": { "value": "#ffffff" },
+        "shape": { "type": "circle", "stroke": { "width": 1, "color": "#000000" } },
+        "opacity": { "value": 0.5, "random": true },
+        "size": { "value": 3, "random": true },
+        "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 },
+        "move": { "enable": true, "speed": 3, "direction": "none", "random": false, "straight": false, "out_mode": "out" }
+      },
+      "retina_detect": true
+    });
+  </script>
+</div>
+    <footer>
+      <p>© 2025 Real Screw | Made by Screw</p>
+    </footer>
+  </div>
+<audio id="background-audio" loop>
+  <source src="spotifydown.com - Super Geeked.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<button onclick="document.getElementById('background-audio').play()">Play Background Music</button>
+<button onclick="document.getElementById('background-audio').pause()">Stop Background Music</button>
+</body>
+</html>
